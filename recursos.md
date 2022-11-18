@@ -1,17 +1,7 @@
-# Algoritmos
 - **947** -> Recursión, deep first search
-
-
-
-
-
-# Estructuras de datos
+- **222** -> Recursión, Arboles binarios
+- **70** -> Programación dinámica
+- **10** -> Expresiones regulares (menudo cristo)
 - **938** -> Arboles binarios
-
-
-
-
-
-# Bases de datos
 - **1393** -> GROUP BY 
 
