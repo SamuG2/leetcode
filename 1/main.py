@@ -1,12 +1,10 @@
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        vistos = {}
-        for i, v in enumerate(nums):
-            if target-v in vistos:
-                return [i, vistos[target-v]]
-            else:
-                vistos[v] = i
-        print(vistos)
+        mapa = {}
+        for i, n in enumerate(nums):
+            if n in mapa:
+                return [mapa[n], i]
+            mapa[target-n] = i
         return []
 
 
